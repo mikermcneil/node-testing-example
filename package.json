@@ -1,0 +1,14 @@
+{
+  "name": "adder",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "~2.4.1"
+  }
+}
