@@ -3,7 +3,7 @@
  */
 
 var assert = require('assert');
-var adder = require('../../');
+var addersync = require('../../lib/adder.sync');
 var FIXTURES = require('../fixtures/adder.fixture');
 
 
@@ -13,7 +13,7 @@ describe('adder.sync()', function() {
 
   it('should add two arguments and return the result', function (){
 
-    var result = adder.sync(FIXTURES.arg0, FIXTURES.arg1);
+    var result = addersync(FIXTURES.arg0, FIXTURES.arg1);
 
     // For more info:
     // http://nodejs.org/api/assert.html
